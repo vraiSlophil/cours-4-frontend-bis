@@ -44,6 +44,8 @@ jobs:
 
   deploy:
     needs: build
+    environment:
+      name: gh-page
     runs-on: ubuntu-latest
     steps:
       - name: Notify deployment
