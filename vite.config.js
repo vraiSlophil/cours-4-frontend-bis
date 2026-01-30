@@ -8,7 +8,7 @@ export default defineConfig({
         port: 3000,
         host: '0.0.0.0',
     },
-    base: '/gralette/',
+    base: '/cours-4-frontend-bis/',
     build: {
         entryPoints: ['app.js'],
     },
